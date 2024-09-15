@@ -1,0 +1,5 @@
+*.DS_Store
+x_retrieval/datasets
+sum_output/dataset_alpaca
+sum_output/dataset_t5
+x_retrieval/experiments/mopo

@@ -1,0 +1,107 @@
+05/08/2024 08:57:34 - WARNING - llmtuner.hparams.parser - `ddp_find_unused_parameters` needs to be set as False for LoRA in DDP training.
+05/08/2024 08:57:34 - INFO - llmtuner.hparams.parser - Process rank: 2, device: cuda:2, n_gpu: 1, distributed training: True, compute dtype: torch.float16
+05/08/2024 08:57:34 - WARNING - llmtuner.hparams.parser - `ddp_find_unused_parameters` needs to be set as False for LoRA in DDP training.
+05/08/2024 08:57:34 - INFO - llmtuner.hparams.parser - Process rank: 0, device: cuda:0, n_gpu: 1, distributed training: True, compute dtype: torch.float16
+05/08/2024 08:57:34 - WARNING - llmtuner.hparams.parser - `ddp_find_unused_parameters` needs to be set as False for LoRA in DDP training.
+05/08/2024 08:57:34 - WARNING - llmtuner.hparams.parser - `ddp_find_unused_parameters` needs to be set as False for LoRA in DDP training.
+05/08/2024 08:57:34 - INFO - llmtuner.hparams.parser - Process rank: 1, device: cuda:1, n_gpu: 1, distributed training: True, compute dtype: torch.float16
+05/08/2024 08:57:34 - INFO - llmtuner.hparams.parser - Process rank: 3, device: cuda:3, n_gpu: 1, distributed training: True, compute dtype: torch.float16
+05/08/2024 08:57:34 - INFO - llmtuner.data.template - Replace eos token: <|im_end|>
+05/08/2024 08:57:34 - INFO - llmtuner.data.template - Replace eos token: <|im_end|>
+05/08/2024 08:57:34 - INFO - llmtuner.data.template - Replace eos token: <|im_end|>
+05/08/2024 08:57:34 - INFO - llmtuner.data.template - Replace eos token: <|im_end|>
+05/08/2024 08:57:34 - INFO - llmtuner.data.loader - Loading dataset sum_alpaca_v2_train.jsonl...
+05/08/2024 08:57:34 - WARNING - llmtuner.data.utils - Checksum failed: missing SHA-1 hash value in dataset_info.json.
+05/08/2024 08:57:37 - INFO - llmtuner.data.loader - Loading dataset sum_alpaca_v2_train.jsonl...
+05/08/2024 08:57:37 - INFO - llmtuner.data.loader - Loading dataset sum_alpaca_v2_train.jsonl...
+05/08/2024 08:57:37 - INFO - llmtuner.data.loader - Loading dataset sum_alpaca_v2_train.jsonl...
+05/08/2024 08:57:37 - WARNING - llmtuner.data.utils - Checksum failed: missing SHA-1 hash value in dataset_info.json.
+05/08/2024 08:57:37 - WARNING - llmtuner.data.utils - Checksum failed: missing SHA-1 hash value in dataset_info.json.
+05/08/2024 08:57:37 - WARNING - llmtuner.data.utils - Checksum failed: missing SHA-1 hash value in dataset_info.json.
+input_ids:
+[151644, 8948, 198, 2610, 525, 264, 10950, 17847, 13, 151645, 198, 151644, 872, 198, 2610, 2299, 264, 2213, 6916, 11, 323, 697, 3383, 374, 311, 27037, 62079, 279, 296, 1103, 8794, 315, 279, 2661, 16600, 1972, 323, 279, 1378, 48719, 3405, 382, 785, 1946, 5610, 510, 14374, 1972, 25, 362, 2265, 323, 1045, 22870, 624, 14374, 14582, 25, 362, 1378, 48719, 6351, 3405, 11, 304, 892, 1172, 825, 48719, 374, 9760, 311, 279, 2661, 16600, 1972, 624, 14582, 5610, 1378, 4494, 11, 2924, 330, 13709, 1, 323, 330, 54705, 3263, 715, 12, 19874, 3405, 374, 3545, 264, 21647, 11, 582, 1184, 311, 1730, 279, 4226, 311, 279, 1887, 476, 78163, 949, 315, 279, 16600, 14582, 624, 12, 362, 12313, 943, 3405, 19257, 311, 264, 3151, 943, 315, 3405, 429, 7460, 279, 12313, 476, 12872, 1948, 1378, 476, 803, 14744, 11, 18940, 11, 476, 2606, 624, 715, 2610, 646, 6248, 419, 438, 1795, 7354, 510, 16, 13, 7379, 279, 4185, 8794, 429, 279, 16600, 1972, 5610, 323, 279, 16600, 14582, 17064, 624, 17, 13, 10548, 311, 279, 4185, 8794, 11, 3270, 264, 3405, 35085, 12126, 315, 279, 16600, 1972, 624, 18, 13, 10783, 279, 1995, 429, 374, 537, 7952, 304, 16600, 1972, 382, 8420, 525, 220, 17, 10295, 1447, 565, 13314, 220, 16, 510, 14374, 1972, 25, 715, 12, 18836, 15485, 198, 12, 18836, 15485, 374, 264, 220, 16, 24, 21, 18, 35267, 16390, 51864, 4531, 39400, 17798, 3179, 33102, 11, 61333, 358, 2342, 11, 323, 72558, 83064, 554, 304, 264, 3364, 911, 264, 10196, 56796, 323, 1059, 2841, 4633, 705, 21682, 304, 264, 2613, 6290, 304, 29790, 13, 576, 4531, 572, 3118, 389, 279, 11514, 330, 58878, 65218, 594, 62126, 724, 1, 553, 29201, 30064, 97156, 8163, 323, 572, 15540, 553, 7801, 33121, 930, 13, 1096, 572, 279, 11737, 315, 4743, 4531, 33102, 1521, 369, 16390, 11, 323, 279, 3908, 23654, 3949, 264, 17809, 40810, 28704, 369, 1059, 975, 1588, 382, 14374, 14582, 25, 15920, 5700, 572, 8947, 1156, 11, 18836, 15485, 476, 472, 3384, 393, 3384, 1939, 14374, 25139, 287, 7354, 25, 715, 16, 13, 576, 4185, 2266, 1948, 279, 16600, 1972, 323, 279, 1378, 48719, 16600, 14582, 374, 279, 5700, 330, 50687, 15485, 1189, 715, 17, 13, 576, 16600, 1972, 5707, 1995, 911, 279, 5700, 11, 27798, 429, 432, 374, 264, 220, 16, 24, 21, 18, 35267, 16390, 51864, 4531, 13, 715, 54815, 11, 582, 646, 93494, 419, 1995, 25, 330, 50687, 15485, 374, 264, 35267, 16390, 51864, 4531, 8947, 304, 220, 16, 24, 21, 18, 2217, 14374, 15949, 25, 18836, 15485, 374, 264, 35267, 16390, 51864, 4531, 8947, 304, 220, 16, 24, 21, 18, 382, 565, 13314, 220, 17, 510, 14374, 14582, 25, 3555, 10084, 572, 3949, 304, 220, 16, 24, 23, 17, 553, 279, 14227, 429, 58989, 11782, 14511, 594, 24951, 2350, 909, 1939, 14374, 1972, 25, 715, 12, 11782, 14511, 198, 12, 11782, 14511, 374, 264, 8453, 20976, 1103, 879, 374, 5023, 264, 16642, 315, 49795, 518, 30688, 3822, 13, 1260, 23497, 15503, 389, 1463, 23602, 5322, 304, 46876, 292, 17047, 323, 862, 8357, 311, 35972, 21321, 11, 17047, 323, 44882, 13, 1260, 3949, 806, 2350, 909, 13, 504, 24951, 3822, 304, 220, 16, 24, 23, 24, 11, 1212, 279, 37117, 315, 1417, 287, 9285, 2185, 809, 2863, 382, 14374, 25139, 287, 7354, 25, 715, 16, 13, 576, 4185, 2266, 1948, 279, 16600, 1972, 323, 279, 1378, 48719, 16600, 14582, 374, 279, 1697, 330, 35590, 14511, 1, 323, 806, 2350, 909, 13, 518, 24951, 3822, 624, 17, 13, 576, 16600, 1972, 5707, 1995, 911, 11782, 14511, 11, 27798, 429, 566, 3949, 806, 2350, 909, 13, 504, 24951, 3822, 304, 220, 16, 24, 23, 24, 11, 1212, 279, 37117, 315, 1417, 287, 9285, 2185, 809, 2863, 13, 715, 54815, 11, 582, 8115, 419, 1995, 553, 25, 330, 2016, 287, 9285, 2185, 809, 2863, 572, 279, 29561, 37319, 315, 11782, 14511, 518, 24951, 3822, 2217, 14374, 15949, 25, 1417, 287, 9285, 2185, 809, 2863, 572, 279, 29561, 37319, 315, 11782, 14511, 518, 24951, 3822, 382, 8420, 374, 279, 1946, 1995, 510, 14374, 1972, 25, 715, 12, 29938, 5540, 11, 4882, 8330, 198, 12, 29938, 5540, 374, 264, 51165, 9806, 315, 49201, 13, 1084, 13248, 4185, 22711, 448, 55579, 11, 72668, 5540, 11, 18679, 889, 398, 5540, 11, 323, 39560, 354, 5540, 13, 758, 3213, 1635, 432, 702, 63138, 3598, 312, 15840, 1368, 1526, 264, 2025, 315, 15662, 42801, 892, 5230, 279, 49455, 315, 1657, 5888, 12938, 553, 279, 4741, 4882, 13369, 30333, 16816, 13, 4220, 7079, 614, 2765, 1657, 22344, 382, 14374, 14582, 25, 3555, 3283, 23942, 311, 29938, 5540, 572, 18047, 304, 220, 16, 23, 18, 23, 389, 279, 13959, 315, 279, 794, 5639, 10948, 1939, 7308, 990, 279, 1995, 429, 594, 3897, 304, 279, 1467, 382, 31115, 279, 16600, 15949, 510, 151645, 198, 151644, 77091, 198, 97159, 613, 5540, 13248, 4185, 22711, 448, 55579, 13, 151645]
+inputs:
+<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+You're a content writer, and your task is to partly summarize the mian contents of the given ###Context and the two-hop question.
+
+The input contains:
+###Context: A title and some sentences.
+###Question: A two-hop complex question, in which only one-hop is relevant to the given ###Context.
+Question contains two types, include "bridge" and "comparison". 
+- Bridge question is often a clause, we need to found the answer to the main or subordinate part of the ###Question.
+- A comparison type question refers to a specific type of question that requires the comparison or contrast between two or more entities, concepts, or options.
+ 
+You can finish this as follow steps:
+1. Find the common contents that the ###Context contains and the ###Question asks.
+2. According to the common contents, write a question-oriented summary of the ###Context.
+3. Remove the information that is not appears in ###Context.
+
+Here are 2 examples:
+
+##Example 1:
+###Context: 
+- Summer Magic
+- Summer Magic is a 1963 Walt Disney Productions film starring Hayley Mills, Burl Ives, and Dorothy McGuire in a story about a Boston widow and her children taking up residence in a small town in Maine. The film was based on the novel "Mother Carey's Chickens" by Kate Douglas Wiggin and was directed by James Neilson. This was the fourth of six film Mills did for Disney, and the young actress received a Golden Globe nomination for her work here.
+
+###Question: Which movie was produced first, Summer Magic or Hocus Pocus?
+
+###Reasoning steps: 
+1. The common context between the ###Context and the two-hop ###Question is the movie "Summer Magic." 
+2. The ###Context provides information about the movie, stating that it is a 1963 Walt Disney Productions film. 
+Therefore, we can summarizes this information: "Summer Magic is a Walt Disney Productions film produced in 1963."
+
+###Abstract: Summer Magic is a Walt Disney Productions film produced in 1963.
+
+##Example 2:
+###Question: What award was received in 1982 by the professor that supervised Jun Li's Harvard Ph.D?
+
+###Context: 
+- Jun Li
+- Jun Li is a Chinese mathematician who is currently a Professor of Mathematics at Stanford University. He focuses primarily on moduli problems in algebraic geometry and their applications to mathematical physics, geometry and topology. He received his Ph.D. from Harvard University in 1989, under the supervision of Shing-Tung Yau.
+
+###Reasoning steps: 
+1. The common context between the ###Context and the two-hop ###Question is the person "Jun Li" and his Ph.D. at Harvard University.
+2. The ###Context provides information about Jun Li, stating that he received his Ph.D. from Harvard University in 1989, under the supervision of Shing-Tung Yau. 
+Therefore, we abstract this information by: "Shing-Tung Yau was the PhD supervisor of Jun Li at Harvard University."
+
+###Abstract: Shing-Tung Yau was the PhD supervisor of Jun Li at Harvard University.
+
+Here is the input information:
+###Context: 
+- Mitchell Park, South Australia
+- Mitchell Park is a suburb south of Adelaide. It shares common boundaries with Marion, Bedford Park, Clovelly Park, and Ascot Park. In recent years it has undergone major redevelopments through a program of urban renewal which included the renovation of many properties owned by the former South Australian Housing Trust. These projects have won many awards.
+
+###Question: What city adjacent to Mitchell Park was founded in 1838 on the banks of the Sturt River?
+
+Only use the information that's provided in the text.
+
+Generate the ###Abstract:
+<|im_end|>
+<|im_start|>assistant
+Mitchell Park shares common boundaries with Marion.<|im_end|>
+label_ids:
+[-100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 97159, 613, 5540, 13248, 4185, 22711, 448, 55579, 13, 151645]
+labels:
+Mitchell Park shares common boundaries with Marion.<|im_end|>
+05/08/2024 08:57:46 - INFO - llmtuner.model.utils.checkpointing - Gradient checkpointing enabled.
+05/08/2024 08:57:46 - INFO - llmtuner.model.utils.attention - Using vanilla Attention implementation.
+05/08/2024 08:57:46 - INFO - llmtuner.model.adapter - Fine-tuning method: LoRA
+05/08/2024 08:57:46 - INFO - llmtuner.model.utils.misc - Found linear modules: up_proj,v_proj,down_proj,o_proj,gate_proj,k_proj,q_proj
+05/08/2024 08:57:46 - INFO - llmtuner.model.loader - trainable params: 3784704 || all params: 467772416 || trainable%: 0.8091
+05/08/2024 08:57:56 - INFO - llmtuner.model.utils.checkpointing - Gradient checkpointing enabled.
+05/08/2024 08:57:56 - INFO - llmtuner.model.utils.attention - Using vanilla Attention implementation.
+05/08/2024 08:57:56 - INFO - llmtuner.model.adapter - Fine-tuning method: LoRA
+05/08/2024 08:57:56 - INFO - llmtuner.model.utils.misc - Found linear modules: up_proj,q_proj,gate_proj,down_proj,v_proj,o_proj,k_proj
+05/08/2024 08:57:56 - INFO - llmtuner.model.loader - trainable params: 3784704 || all params: 467772416 || trainable%: 0.8091
+05/08/2024 08:57:56 - INFO - llmtuner.model.utils.checkpointing - Gradient checkpointing enabled.
+05/08/2024 08:57:56 - INFO - llmtuner.model.utils.attention - Using vanilla Attention implementation.
+05/08/2024 08:57:56 - INFO - llmtuner.model.adapter - Fine-tuning method: LoRA
+05/08/2024 08:57:56 - INFO - llmtuner.model.utils.misc - Found linear modules: o_proj,q_proj,up_proj,down_proj,v_proj,gate_proj,k_proj
+05/08/2024 08:57:56 - INFO - llmtuner.model.utils.checkpointing - Gradient checkpointing enabled.
+05/08/2024 08:57:56 - INFO - llmtuner.model.utils.attention - Using vanilla Attention implementation.
+05/08/2024 08:57:56 - INFO - llmtuner.model.adapter - Fine-tuning method: LoRA
+05/08/2024 08:57:56 - INFO - llmtuner.model.utils.misc - Found linear modules: gate_proj,up_proj,down_proj,q_proj,k_proj,o_proj,v_proj
+05/08/2024 08:57:56 - INFO - llmtuner.model.loader - trainable params: 3784704 || all params: 467772416 || trainable%: 0.8091
+05/08/2024 08:57:56 - INFO - llmtuner.model.loader - trainable params: 3784704 || all params: 467772416 || trainable%: 0.8091

@@ -1,0 +1,1 @@
+huggingface-cli download --resume-download intfloat/e5-base-v2 --local-dir download/e5_base_v2
