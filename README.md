@@ -1,7 +1,7 @@
-We provide code of MoPo and a small sample of PostSumQA here.
+We provide code of MoPo and a small sample of PostSumQA here.  
 The datasets and weights used for evaluation are provided in the supplementary materials of the paper.
 ## MoPo
-To run the retrieval test in the paper, please run the following command:
+To run the retrieval test in the paper, please run the following command:  
 **prepare the environment**
 ```
 conda create -n mopo python=3.9
@@ -16,11 +16,7 @@ pip install -r requirements.txt
    sh download/e5_base_v2/download.sh
    sh download/flan_t5_large/download.sh
    ```
-2. train summarizer model flan-t5-large
-   ```
-   python sum_output/training_t5/training_xl.py
-   ```
-   **Note**: we provide a checkpoint for e5-base-v2 in 'x_retrieval/experiments/mopo/checkpoint.pth', so we don't need to train it again. 
+   **Note**: we provide a checkpoint for e5-base-v2 in 'x_retrieval/experiments/mopo/checkpoint.pth' and model weights in 'x_retrieval\results\t5_res_xl\final save', so we don't need to train it again. 
 
 **run retrieval test**
 ```
