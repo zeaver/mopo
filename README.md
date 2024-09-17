@@ -1,5 +1,5 @@
 We provide code of MoPo and a small sample of PostSumQA here.  
-The datasets and weights used for evaluation are provided in the supplementary materials of the paper.
+
 ## MoPo
 To run the retrieval test in the paper, please run the following command:  
 **prepare the environment**
