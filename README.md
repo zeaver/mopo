@@ -1,4 +1,29 @@
-We provide code of MoPo and a small sample of PostSumQA here.  
+This is the officially implemented code of our COLING-2025 paper:  
+**Momentum Posterior Regularization for Multi-hop Dense Retrieval**  
+
+Welcome to cite our work:
+```
+@inproceedings{xia-etal-2025-momentum,
+    title = "Momentum Posterior Regularization for Multi-hop Dense Retrieval",
+    author = "Xia, Zehua  and
+      Wu, Yuyang  and
+      Xia, Yiyun  and
+      Nguyen, Cam Tu",
+    editor = "Rambow, Owen  and
+      Wanner, Leo  and
+      Apidianaki, Marianna  and
+      Al-Khalifa, Hend  and
+      Eugenio, Barbara Di  and
+      Schockaert, Steven",
+    booktitle = "Proceedings of the 31st International Conference on Computational Linguistics",
+    month = jan,
+    year = "2025",
+    address = "Abu Dhabi, UAE",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.coling-main.550/",
+    pages = "8255--8271",
+}
+```
 
 ## MoPo
 To run the retrieval test in the paper, please run the following command:  
